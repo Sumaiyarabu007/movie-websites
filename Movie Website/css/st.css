@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+}
+body::before,
+body::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+body * {
+ box-sizing: inherit;
+}
+
+
+<div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
